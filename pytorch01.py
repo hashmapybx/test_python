@@ -60,3 +60,5 @@ if torch.cuda.is_available():
     print(z.to("cpu", torch.double))       # ``.to`` 也会对变量的类型做更改
 
 
+
+
